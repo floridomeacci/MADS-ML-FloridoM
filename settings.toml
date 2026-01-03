@@ -1,0 +1,33 @@
+[model]
+epochs = 100
+metrics = ["Accuracy"]
+logdir = "/Users/floridomeacci/Documents/MADS-ML-FloridoM-master/Les1_modellogs/selected/color_lab_trial08_long"
+train_steps = 91
+valid_steps = 22
+reporttypes = ["ReportTypes.TENSORBOARD"]
+[model.optimizer_kwargs]
+lr = 0.005414511196011076
+weight_decay = 0.00010954262225434532
+momentum = 0.5483811218224794
+
+[model.scheduler_kwargs]
+step_size = 1
+gamma = 0.4302560394249165
+
+[model.earlystop_kwargs]
+patience = 15
+delta = 0.001
+verbose = true
+save = true
+
+
+[types]
+epochs = "int"
+metrics = "list"
+logdir = "PosixPath"
+train_steps = "int"
+valid_steps = "int"
+reporttypes = "list"
+optimizer_kwargs = "dict"
+scheduler_kwargs = "dict"
+earlystop_kwargs = "dict"

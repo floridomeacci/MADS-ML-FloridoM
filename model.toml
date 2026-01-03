@@ -1,0 +1,13 @@
+[model]
+training = true
+inplanes = 512
+dilation = 1
+groups = 1
+base_width = 64
+
+[types]
+training = "bool"
+inplanes = "int"
+dilation = "int"
+groups = "int"
+base_width = "int"

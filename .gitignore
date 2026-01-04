@@ -42,6 +42,8 @@ data/processed/*
 data/external/*
 !data/RAW/.gitkeep
 !data/processed/.gitkeep
+!data/processed/heatmaps/
+!data/processed/heatmaps/**
 !data/external/.gitkeep
 
 # Model artifacts
